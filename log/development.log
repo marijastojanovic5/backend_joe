@@ -1474,3 +1474,470 @@ Processing by AuthController#create as JSON
 Completed 200 OK in 296ms (Views: 1.5ms | ActiveRecord: 7.5ms | Allocations: 6789)
 
 
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6078104553892060200)[0m
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(6078104553892060200)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCoffeeShop Load (1.9ms)[0m  [1m[34mSELECT "coffee_shops".* FROM "coffee_shops"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.6ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 311]]
+  [1m[35m (13.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (10.2ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 312]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 313]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.3ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 314]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.3ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 315]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 316]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.8ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 317]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.6ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 318]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.6ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 319]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 320]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 321]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.3ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 322]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 323]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 324]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 325]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.3ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 326]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 327]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 328]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 329]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 330]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.7ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 331]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.6ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 332]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 333]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 334]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 335]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 336]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 337]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 338]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 339]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 340]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 341]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 342]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 343]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 344]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 345]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.3ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 346]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.3ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 347]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.3ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 348]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 349]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.3ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 350]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 351]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.3ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 352]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 353]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 354]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 355]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.4ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 356]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 357]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.5ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 358]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.3ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 359]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Destroy (0.3ms)[0m  [1m[31mDELETE FROM "coffee_shops" WHERE "coffee_shops"."id" = $1[0m  [["id", 360]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (6.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6078104553892060200)[0m
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (4.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6078104553892060200)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCoffeeShop Load (0.8ms)[0m  [1m[34mSELECT "coffee_shops".* FROM "coffee_shops"[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCoffeeShop Load (0.9ms)[0m  [1m[34mSELECT "coffee_shops".* FROM "coffee_shops"[0m
+  [1m[35m (16.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (9.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE LOWER("users"."name") = LOWER($1) LIMIT $2[0m  [["name", "username101"], ["LIMIT", 1]]
+  [1m[36mUser Create (18.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "username101"], ["created_at", "2020-06-04 15:54:47.359507"], ["updated_at", "2020-06-04 15:54:47.359507"], ["password_digest", "$2a$12$MwUbBRhpecsJxweng9raqONrmB.IJEwipFOKpURjgoFD5kxhG0a62"]]
+  [1m[35m (20.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE LOWER("users"."name") = LOWER($1) LIMIT $2[0m  [["name", "sean"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "sean"], ["created_at", "2020-06-04 15:54:47.673684"], ["updated_at", "2020-06-04 15:54:47.673684"], ["password_digest", "$2a$12$BavHANO1WHOKQbgUEg3SZ.Wpn7B55pLWmHhnXKy5prcL1p/YFn7OO"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (7.3ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Founding Farmers - Washington"], ["location", "1924 Pennsylvania Ave NW Washington, DC 20006"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/gePFik0iZqLLBmQHP8Fr5g/o.jpg"], ["display_phone", "(202) 822-8783"], ["rating", 4.0], ["review_count", 13630], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.692000"], ["updated_at", "2020-06-04 15:54:47.692000"], ["distance", 2750.3273860160307], ["longitude", "-77.04442"], ["latitude", "38.90029"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.5ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Baked & Wired"], ["location", "1052 Thomas Jefferson St NW Washington, DC 20007"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/wcYuthvjiCo68jNkzQm3yg/o.jpg"], ["display_phone", "(202) 333-2500"], ["rating", 4.5], ["review_count", 4450], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.704358"], ["updated_at", "2020-06-04 15:54:47.704358"], ["distance", 4169.200062267783], ["longitude", "-77.0602477800762"], ["latitude", "38.9039128490789"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.5ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "A Baked Joint"], ["location", "430 K St NW Washington, DC 20001"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/w8E6LsM3vuwxZqz-w_U5Uw/o.jpg"], ["display_phone", "(202) 408-6985"], ["rating", 4.5], ["review_count", 1855], ["price", "$"], ["created_at", "2020-06-04 15:54:47.709603"], ["updated_at", "2020-06-04 15:54:47.709603"], ["distance", 1087.5489142434078], ["longitude", "-77.017275"], ["latitude", "38.902465"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Keren Restaurant"], ["location", "1780 Florida Ave NW Washington, DC 20009"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/S2mmdHFgZ11TRqRm9icwyQ/o.jpg"], ["display_phone", "(202) 265-5764"], ["rating", 4.5], ["review_count", 1099], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.713929"], ["updated_at", "2020-06-04 15:54:47.713929"], ["distance", 3535.4639020285113], ["longitude", "-77.041258"], ["latitude", "38.916777"]]
+  [1m[35m (4.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.5ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Tryst"], ["location", "2459 18th St NW Washington, DC 20009"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/VnqC2rLBLDVuJUGhWMu9RQ/o.jpg"], ["display_phone", "(202) 232-5500"], ["rating", 4.0], ["review_count", 1605], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.722258"], ["updated_at", "2020-06-04 15:54:47.722258"], ["distance", 4028.1295641322354], ["longitude", "-77.042121887207"], ["latitude", "38.9219703674316"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.5ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Pitango Gelato"], ["location", "413 7th St NW Washington, DC 20004"], ["image_url", "https://s3-media4.fl.yelpcdn.com/bphoto/5B5-omrzou3LEkrW1TEU8g/o.jpg"], ["display_phone", "(202) 885-9607"], ["rating", 4.5], ["review_count", 884], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.726763"], ["updated_at", "2020-06-04 15:54:47.726763"], ["distance", 699.6442750053009], ["longitude", "-77.0217751"], ["latitude", "38.8954139"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Bon Matcha"], ["location", "1928 I St NW Washington, DC 20006"], ["image_url", "https://s3-media4.fl.yelpcdn.com/bphoto/g1KjHUs23LGwdI4UCzWtlw/o.jpg"], ["display_phone", ""], ["rating", 4.5], ["review_count", 448], ["price", "$"], ["created_at", "2020-06-04 15:54:47.731106"], ["updated_at", "2020-06-04 15:54:47.731106"], ["distance", 2793.965936092272], ["longitude", "-77.04471"], ["latitude", "38.90114"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.5ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "La Colombe Coffee"], ["location", "924 Rear N St NW Washington, DC 20001"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/S9DJwQ9dfZ2aiYZjQIxIHw/o.jpg"], ["display_phone", "(202) 289-4850"], ["rating", 4.5], ["review_count", 494], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.734974"], ["updated_at", "2020-06-04 15:54:47.734974"], ["distance", 1764.8617770247229], ["longitude", "-77.0249282196164"], ["latitude", "38.9064687179387"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Peregrine Espresso"], ["location", "660 Pennsylvania Ave SE Washington, DC 20003"], ["image_url", "https://s3-media4.fl.yelpcdn.com/bphoto/VJZGiJg7hbl16ofBtEr23Q/o.jpg"], ["display_phone", "(202) 629-4381"], ["rating", 4.5], ["review_count", 463], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.739373"], ["updated_at", "2020-06-04 15:54:47.739373"], ["distance", 1746.5574207972818], ["longitude", "-76.996396911717"], ["latitude", "38.88553632545"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Dolcezza"], ["location", "1704 Connecticut Ave NW Washington, DC 20009"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/iZ-i6GMPnpk8pWxUdCJkXQ/o.jpg"], ["display_phone", "(202) 299-9116"], ["rating", 4.0], ["review_count", 578], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.743577"], ["updated_at", "2020-06-04 15:54:47.743577"], ["distance", 3504.4849363838957], ["longitude", "-77.0455962"], ["latitude", "38.9128596"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Sidamo Coffee and Tea"], ["location", "417 H St NE Washington, DC 20002"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/SOdC3WvYk0OTa5V_vl0TcQ/o.jpg"], ["display_phone", "(202) 548-0081"], ["rating", 4.0], ["review_count", 433], ["price", "$"], ["created_at", "2020-06-04 15:54:47.747405"], ["updated_at", "2020-06-04 15:54:47.747405"], ["distance", 1461.5120675509593], ["longitude", "-76.99991"], ["latitude", "38.90002"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Sticky Fingers Sweets & Eats"], ["location", "1370 Park Rd NW Washington, DC 20010"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/s--aHjiv5LKD07u2K55bqw/o.jpg"], ["display_phone", "(202) 299-9700"], ["rating", 4.0], ["review_count", 899], ["price", "$"], ["created_at", "2020-06-04 15:54:47.751570"], ["updated_at", "2020-06-04 15:54:47.751570"], ["distance", 4437.858840494173], ["longitude", "-77.0321390032768"], ["latitude", "38.9304372668266"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "District Doughnut and Coffee"], ["location", "749 8th St SE Washington, DC 20003"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/dF5eTAccvpK_QrzBBeQtsw/o.jpg"], ["display_phone", "(202) 817-3196"], ["rating", 4.0], ["review_count", 478], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.755628"], ["updated_at", "2020-06-04 15:54:47.755628"], ["distance", 2218.940346664236], ["longitude", "-76.9951451508514"], ["latitude", "38.8796051022188"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "The Wydown Coffee Bar"], ["location", "1924 14th St NW Washington, DC 20009"], ["image_url", "https://s3-media4.fl.yelpcdn.com/bphoto/fmClGb1ryj_JXOjieo79FA/o.jpg"], ["display_phone", "(202) 507-8411"], ["rating", 4.5], ["review_count", 366], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.759747"], ["updated_at", "2020-06-04 15:54:47.759747"], ["distance", 3038.5579073891804], ["longitude", "-77.0319691780884"], ["latitude", "38.9165409906636"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Philz Coffee"], ["location", "1827 Adams Mill Rd NW Washington, DC 20009"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/zQOoghSKSV_WTT5wg85qhQ/o.jpg"], ["display_phone", "(202) 601-7710"], ["rating", 4.5], ["review_count", 333], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.763714"], ["updated_at", "2020-06-04 15:54:47.763714"], ["distance", 4215.812946976671], ["longitude", "-77.0432464"], ["latitude", "38.9233849"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Compass Coffee"], ["location", "1535 7th St NW Washington, DC 20001"], ["image_url", "https://s3-media1.fl.yelpcdn.com/bphoto/AiNrJ6Zbyj8Yi108uwr3_Q/o.jpg"], ["display_phone", "(202) 251-7402"], ["rating", 4.5], ["review_count", 345], ["price", "$"], ["created_at", "2020-06-04 15:54:47.767730"], ["updated_at", "2020-06-04 15:54:47.767730"], ["distance", 2057.260022911172], ["longitude", "-77.0215683"], ["latitude", "38.9105988"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Crumbs & Whiskers | A Cat Cafe Experience."], ["location", "3211 O St NW Washington, DC 20007"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/VeyK1iwpB_zb0tx7KHBRxg/o.jpg"], ["display_phone", "(202) 621-7114"], ["rating", 4.5], ["review_count", 427], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.771801"], ["updated_at", "2020-06-04 15:54:47.771801"], ["distance", 4632.562618603901], ["longitude", "-77.0641"], ["latitude", "38.90799"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Pleasant Pops Farmhouse Market & Cafe"], ["location", "1781 Florida Ave NW Ste G Washington, DC 20009"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/QpMqJ-muuVckll2hiBrBBw/o.jpg"], ["display_phone", "(202) 558-5224"], ["rating", 4.5], ["review_count", 338], ["price", "$"], ["created_at", "2020-06-04 15:54:47.775784"], ["updated_at", "2020-06-04 15:54:47.775784"], ["distance", 3569.2358586365867], ["longitude", "-77.0410466194153"], ["latitude", "38.9173326525253"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Highlands"], ["location", "4706 14th St NW Washington, DC 20011"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/iTV1clQ4TI-NJ-sBR9YnNA/o.jpg"], ["display_phone", "(202) 829-6200"], ["rating", 4.0], ["review_count", 462], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.779949"], ["updated_at", "2020-06-04 15:54:47.779949"], ["distance", 6283.873405328313], ["longitude", "-77.033073425293"], ["latitude", "38.9475288391113"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.5ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Three Fifty Bakery and Coffee Bar"], ["location", "1926 17th St NW Washington, DC 20009"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/mOSDOltNR3i5GKu374NTLQ/o.jpg"], ["display_phone", "(202) 629-1022"], ["rating", 4.5], ["review_count", 248], ["price", "$"], ["created_at", "2020-06-04 15:54:47.783908"], ["updated_at", "2020-06-04 15:54:47.783908"], ["distance", 3371.0753812640173], ["longitude", "-77.038517"], ["latitude", "38.9166507"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Colada Shop"], ["location", "1405 T St NW Washington, DC 20009"], ["image_url", "https://s3-media4.fl.yelpcdn.com/bphoto/8e6QN1RobaeHYFcN1chXKw/o.jpg"], ["display_phone", "(202) 332-8800"], ["rating", 4.0], ["review_count", 436], ["price", "$"], ["created_at", "2020-06-04 15:54:47.788009"], ["updated_at", "2020-06-04 15:54:47.788009"], ["distance", 2986.2327487784787], ["longitude", "-77.0322776"], ["latitude", "38.9157049"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Buttercream Bakeshop"], ["location", "1250 9th St NW Washington, DC 20001"], ["image_url", "https://s3-media4.fl.yelpcdn.com/bphoto/PEdklCgCftP0o5hlHlJOYQ/o.jpg"], ["display_phone", "(202) 735-0102"], ["rating", 4.0], ["review_count", 358], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.791943"], ["updated_at", "2020-06-04 15:54:47.791943"], ["distance", 1777.3714493418533], ["longitude", "-77.02419"], ["latitude", "38.90694"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Ebenezers Coffeehouse"], ["location", "201 F St NE Washington, DC 20002"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/Vy4tqehvCisp9Ll2b05pyA/o.jpg"], ["display_phone", "(202) 558-6900"], ["rating", 4.0], ["review_count", 451], ["price", "$"], ["created_at", "2020-06-04 15:54:47.795868"], ["updated_at", "2020-06-04 15:54:47.795868"], ["distance", 1047.6092757936224], ["longitude", "-77.0032858099355"], ["latitude", "38.8971287119908"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Lot 38 Espresso Bar"], ["location", "1001 2nd St SE Washington, DC 20003"], ["image_url", "https://s3-media4.fl.yelpcdn.com/bphoto/-XnHoJWur-ivS7S83L4VYw/o.jpg"], ["display_phone", "(202) 758-0677"], ["rating", 4.5], ["review_count", 224], ["price", "$"], ["created_at", "2020-06-04 15:54:47.799770"], ["updated_at", "2020-06-04 15:54:47.799770"], ["distance", 1929.1681706443453], ["longitude", "-77.0036673545837"], ["latitude", "38.8776829823059"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Slipstream"], ["location", "1333 14th St NW Washington, DC 20005"], ["image_url", "https://s3-media1.fl.yelpcdn.com/bphoto/D6tL_BLaS1lKV79xvSMuow/o.jpg"], ["display_phone", "(202) 450-2216"], ["rating", 4.0], ["review_count", 528], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.803705"], ["updated_at", "2020-06-04 15:54:47.803705"], ["distance", 2282.716848564263], ["longitude", "-77.031494140625"], ["latitude", "38.9083633422852"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Emissary"], ["location", "2032 P St NW Washington, DC 20036"], ["image_url", "https://s3-media1.fl.yelpcdn.com/bphoto/4f85bLeXGUIKvUQw46w6lw/o.jpg"], ["display_phone", "(202) 642-2603"], ["rating", 4.0], ["review_count", 334], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.807735"], ["updated_at", "2020-06-04 15:54:47.807735"], ["distance", 3338.477450848422], ["longitude", "-77.04638"], ["latitude", "38.90951"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.9ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Philz Coffee"], ["location", "1331 4th St SE #101 Washington, DC 20003"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/SvBfsfDTqZYPR_Db3YHpEQ/o.jpg"], ["display_phone", "(202) 506-3855"], ["rating", 4.5], ["review_count", 246], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.811810"], ["updated_at", "2020-06-04 15:54:47.811810"], ["distance", 2324.1921977721136], ["longitude", "-77.0009718498031"], ["latitude", "38.8747824315668"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "The Coffee Bar"], ["location", "1201 S St NW Washington, DC 20009"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/ZKD_GTHGEiss9WIksp2YAg/o.jpg"], ["display_phone", "(202) 733-1049"], ["rating", 4.0], ["review_count", 281], ["price", "$"], ["created_at", "2020-06-04 15:54:47.816412"], ["updated_at", "2020-06-04 15:54:47.816412"], ["distance", 2667.180889932053], ["longitude", "-77.0282699067459"], ["latitude", "38.9143154"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.5ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Dolcezza"], ["location", "904 Palmer Aly Nw Washington, DC 20001"], ["image_url", "https://s3-media4.fl.yelpcdn.com/bphoto/qhwrE9uF1neBLhY8fgAb9Q/o.jpg"], ["display_phone", "(202) 733-2879"], ["rating", 4.0], ["review_count", 302], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.820847"], ["updated_at", "2020-06-04 15:54:47.820847"], ["distance", 1191.0280620861713], ["longitude", "-77.0244"], ["latitude", "38.90027"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.5ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Little Pearl"], ["location", "921 Pennsylvania Ave SE Washington, DC 20003"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/KjbGyWm_Lu8sWWHrGrP4uw/o.jpg"], ["display_phone", "(202) 618-1868"], ["rating", 4.0], ["review_count", 268], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.825665"], ["updated_at", "2020-06-04 15:54:47.825665"], ["distance", 2095.9121403904937], ["longitude", "-76.99350645159"], ["latitude", "38.883149"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.6ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Politics and Prose"], ["location", "5015 Connecticut Ave NW Washington, DC 20008"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/TAF2D5jTiAOFhEqI0XAVkQ/o.jpg"], ["display_phone", "(202) 364-1919"], ["rating", 4.0], ["review_count", 315], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.830335"], ["updated_at", "2020-06-04 15:54:47.830335"], ["distance", 8445.768794617297], ["longitude", "-77.06965"], ["latitude", "38.95547"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Colony Club"], ["location", "3118 Georgia Ave NW Washington, DC 20010"], ["image_url", "https://s3-media1.fl.yelpcdn.com/bphoto/6Q6Vg0mlKc7OaTwCbSL0uQ/o.jpg"], ["display_phone", "(202) 722-7202"], ["rating", 4.5], ["review_count", 169], ["price", "$"], ["created_at", "2020-06-04 15:54:47.834719"], ["updated_at", "2020-06-04 15:54:47.834719"], ["distance", 4151.6705127192145], ["longitude", "-77.0235609626942"], ["latitude", "38.9296029509668"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Compass Coffee"], ["location", "650 F St NW Washington, DC 20004"], ["image_url", "https://s3-media4.fl.yelpcdn.com/bphoto/OrZcmkiVvTOaPiM07jNXig/o.jpg"], ["display_phone", ""], ["rating", 4.0], ["review_count", 240], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.838847"], ["updated_at", "2020-06-04 15:54:47.838847"], ["distance", 751.3333679419292], ["longitude", "-77.0209451392293"], ["latitude", "38.8972050285324"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Olivia Macaron"], ["location", "3222 M St NW Washington, DC 20007"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/-h4fqczgrCwoVQI4wl93QA/o.jpg"], ["display_phone", "(202) 965-1000"], ["rating", 4.0], ["review_count", 361], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.842973"], ["updated_at", "2020-06-04 15:54:47.842973"], ["distance", 4491.292754919879], ["longitude", "-77.06371"], ["latitude", "38.905006"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "M E Swing Coffee Roasters"], ["location", "1702 G St NW Washington, DC 20006"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/T0dYsBNc-URkFWITbn2EVQ/o.jpg"], ["display_phone", "(202) 408-1315"], ["rating", 4.0], ["review_count", 225], ["price", "$"], ["created_at", "2020-06-04 15:54:47.847069"], ["updated_at", "2020-06-04 15:54:47.847069"], ["distance", 2299.140704222793], ["longitude", "-77.039904"], ["latitude", "38.898096"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.5ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Sharetea"], ["location", "519 H St NW Washington, DC 20001"], ["image_url", "https://s3-media4.fl.yelpcdn.com/bphoto/U01F0x5e1OL5sK1wMG5c9A/o.jpg"], ["display_phone", "(202) 408-4785"], ["rating", 4.0], ["review_count", 192], ["price", "$"], ["created_at", "2020-06-04 15:54:47.851256"], ["updated_at", "2020-06-04 15:54:47.851256"], ["distance", 911.2306311877843], ["longitude", "-77.01967"], ["latitude", "38.899973"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "City Place Cafe"], ["location", "1101 17th St NW Washington, DC 20036"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/3hh4Tjfq26HTJNjYwpblQw/o.jpg"], ["display_phone", "(202) 466-4665"], ["rating", 4.5], ["review_count", 179], ["price", "$"], ["created_at", "2020-06-04 15:54:47.855583"], ["updated_at", "2020-06-04 15:54:47.855583"], ["distance", 2404.388101739442], ["longitude", "-77.03813"], ["latitude", "38.90406"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Bourbon Coffee"], ["location", "2101 L St NW Washington, DC 20037"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/3CG-MVcjD68TwSttnX2MRQ/o.jpg"], ["display_phone", "(202) 525-1886"], ["rating", 4.0], ["review_count", 380], ["price", "$"], ["created_at", "2020-06-04 15:54:47.859544"], ["updated_at", "2020-06-04 15:54:47.859544"], ["distance", 3096.283671282679], ["longitude", "-77.047089"], ["latitude", "38.903881"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "The Royal"], ["location", "501 Florida Ave NW Washington, DC 20001"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/WP2a8zFjbDXIwjA6_PzNlw/o.jpg"], ["display_phone", "(202) 332-7777"], ["rating", 4.0], ["review_count", 238], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.880891"], ["updated_at", "2020-06-04 15:54:47.880891"], ["distance", 2485.7950308947366], ["longitude", "-77.0185775756836"], ["latitude", "38.9150428771973"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Dua Coffee"], ["location", "923 15th St NW Washington, DC 20005"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/GdG4U49XkWPFssdG6eaokw/o.jpg"], ["display_phone", "(202) 347-4404"], ["rating", 5.0], ["review_count", 65], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.885022"], ["updated_at", "2020-06-04 15:54:47.885022"], ["distance", 1925.4977052263728], ["longitude", "-77.03328"], ["latitude", "38.90191"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Bakeshop"], ["location", "1025 N Fillmore St Ste G Arlington, VA 22201"], ["image_url", "https://s3-media1.fl.yelpcdn.com/bphoto/qMhd1mI-D4gWbPPxM_QftQ/o.jpg"], ["display_phone", "(571) 970-6460"], ["rating", 4.5], ["review_count", 835], ["price", "$"], ["created_at", "2020-06-04 15:54:47.889075"], ["updated_at", "2020-06-04 15:54:47.889075"], ["distance", 6843.591675263733], ["longitude", "-77.0926368515205"], ["latitude", "38.8854565743547"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Residents Cafe & Bar"], ["location", "1306 18th St NW Washington, DC 20036"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/UVajppMLvc2CsOwLpasebQ/o.jpg"], ["display_phone", "(202) 602-9563"], ["rating", 5.0], ["review_count", 56], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.893198"], ["updated_at", "2020-06-04 15:54:47.893198"], ["distance", 2911.9157031875143], ["longitude", "-77.04186"], ["latitude", "38.90795"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Qualia Coffee"], ["location", "3917 Georgia Ave NW Washington, DC 20011"], ["image_url", "https://s3-media1.fl.yelpcdn.com/bphoto/0rEIXJBlGLNeVS7LfLMbRA/o.jpg"], ["display_phone", "(202) 248-6423"], ["rating", 4.0], ["review_count", 293], ["price", "$"], ["created_at", "2020-06-04 15:54:47.897102"], ["updated_at", "2020-06-04 15:54:47.897102"], ["distance", 5214.856691572854], ["longitude", "-77.0244827270508"], ["latitude", "38.9391975402832"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Wapa Cafe Boutique"], ["location", "6230 Georgia Ave NW Washington, DC 20011"], ["image_url", "https://s3-media4.fl.yelpcdn.com/bphoto/Jd6AkvgaFYdKf86tWIzJXg/o.jpg"], ["display_phone", "(202) 291-2224"], ["rating", 4.5], ["review_count", 122], ["price", "$"], ["created_at", "2020-06-04 15:54:47.900886"], ["updated_at", "2020-06-04 15:54:47.900886"], ["distance", 8192.440239992431], ["longitude", "-77.027853"], ["latitude", "38.965892"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Sankofa Video Books & Cafe"], ["location", "2714 Georgia Ave NW Washington, DC 20001"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/uEqvnYA4KV_10vkromEuEg/o.jpg"], ["display_phone", "(202) 332-1084"], ["rating", 4.5], ["review_count", 131], ["price", "$"], ["created_at", "2020-06-04 15:54:47.904748"], ["updated_at", "2020-06-04 15:54:47.904748"], ["distance", 3704.356723987782], ["longitude", "-77.02315"], ["latitude", "38.925561"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Potter's House"], ["location", "1658 Columbia Rd NW Washington, DC 20009"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/4Pd0Nknpir0_8v8DSYQMOw/o.jpg"], ["display_phone", "(202) 232-5483"], ["rating", 4.0], ["review_count", 200], ["price", "$"], ["created_at", "2020-06-04 15:54:47.908584"], ["updated_at", "2020-06-04 15:54:47.908584"], ["distance", 4149.14518110306], ["longitude", "-77.0387367"], ["latitude", "38.9250305"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.6ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Büna Coffeehouse"], ["location", "4400 Georgia Ave NW Washington, DC 20011"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/0MUfA-8mspta6M5U99BLhw/o.jpg"], ["display_phone", "(202) 882-2223"], ["rating", 5.0], ["review_count", 76], ["price", "$"], ["created_at", "2020-06-04 15:54:47.912250"], ["updated_at", "2020-06-04 15:54:47.912250"], ["distance", 5787.5877608319715], ["longitude", "-77.0264511108398"], ["latitude", "38.9441184997559"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Sami's Coffee Kiosk"], ["location", "2121 Virginia Ave NW Washington, DC 20037"], ["image_url", "https://s3-media4.fl.yelpcdn.com/bphoto/XcuN2Z0nMBxQOeLHhCzoPw/o.jpg"], ["display_phone", ""], ["rating", 5.0], ["review_count", 55], ["price", "$"], ["created_at", "2020-06-04 15:54:47.916306"], ["updated_at", "2020-06-04 15:54:47.916306"], ["distance", 2961.1188460854255], ["longitude", "-77.0481262207031"], ["latitude", "38.8964729309082"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Mount Desert Island Ice Cream"], ["location", "3110 Mt Pleasant St NW Washington, DC 20010"], ["image_url", "https://s3-media2.fl.yelpcdn.com/bphoto/g2ELKaXEkR-aXDjGrV9OKA/o.jpg"], ["display_phone", "(240) 804-7038"], ["rating", 5.0], ["review_count", 78], ["price", "$"], ["created_at", "2020-06-04 15:54:47.919909"], ["updated_at", "2020-06-04 15:54:47.919909"], ["distance", 4512.003155747458], ["longitude", "-77.0377248"], ["latitude", "38.9291879"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCoffeeShop Create (0.4ms)[0m  [1m[32mINSERT INTO "coffee_shops" ("name", "location", "image_url", "display_phone", "rating", "review_count", "price", "created_at", "updated_at", "distance", "longitude", "latitude") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "La Colombe Coffee"], ["location", "900 6th St NW Washington, DC 20001"], ["image_url", "https://s3-media3.fl.yelpcdn.com/bphoto/R-h1h7UDSkI495JrTz2JMg/o.jpg"], ["display_phone", ""], ["rating", 4.0], ["review_count", 227], ["price", "$$"], ["created_at", "2020-06-04 15:54:47.923534"], ["updated_at", "2020-06-04 15:54:47.923534"], ["distance", 1033.2706378135072], ["longitude", "-77.0201034545898"], ["latitude", "38.901050567627"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/coffee_shops" for ::1 at 2020-06-04 11:57:32 -0400
+  [1m[35m (13.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CoffeeShopsController#index as */*
+  [1m[36mCoffeeShop Load (1.7ms)[0m  [1m[34mSELECT "coffee_shops".* FROM "coffee_shops"[0m
+  ↳ app/controllers/coffee_shops_controller.rb:4:in `index'
+Completed 200 OK in 42ms (Views: 0.7ms | ActiveRecord: 8.8ms | Allocations: 22401)
+
+
+Started POST "/login" for ::1 at 2020-06-04 11:58:02 -0400
+Processing by AuthController#create as JSON
+  Parameters: {"name"=>"John", "password"=>"[FILTERED]", "auth"=>{"name"=>"John", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "John"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.34ms)
+Completed 200 OK in 296ms (Views: 6.3ms | ActiveRecord: 8.9ms | Allocations: 6756)
+
+
+Started GET "/coffee_shops" for ::1 at 2020-06-04 12:00:28 -0400
+Processing by CoffeeShopsController#index as */*
+  [1m[36mCoffeeShop Load (1.6ms)[0m  [1m[34mSELECT "coffee_shops".* FROM "coffee_shops"[0m
+  ↳ app/controllers/coffee_shops_controller.rb:4:in `index'
+Completed 200 OK in 33ms (Views: 0.3ms | ActiveRecord: 1.6ms | Allocations: 11151)
+
+
+Started POST "/login" for ::1 at 2020-06-04 12:00:33 -0400
+Processing by AuthController#create as JSON
+  Parameters: {"name"=>"John", "password"=>"[FILTERED]", "auth"=>{"name"=>"John", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "John"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.22ms)
+Completed 200 OK in 281ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 977)
+
+
+Started GET "/coffee_shops" for ::1 at 2020-06-04 12:02:01 -0400
+Processing by CoffeeShopsController#index as */*
+  [1m[36mCoffeeShop Load (5.8ms)[0m  [1m[34mSELECT "coffee_shops".* FROM "coffee_shops"[0m
+  ↳ app/controllers/coffee_shops_controller.rb:4:in `index'
+Completed 200 OK in 27ms (Views: 0.7ms | ActiveRecord: 5.8ms | Allocations: 11152)
+
+
+Started POST "/login" for ::1 at 2020-06-04 12:02:14 -0400
+Processing by AuthController#create as JSON
+  Parameters: {"name"=>"John", "password"=>"[FILTERED]", "auth"=>{"name"=>"John", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (3.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "John"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.51ms)
+Completed 200 OK in 266ms (Views: 1.0ms | ActiveRecord: 3.7ms | Allocations: 957)
+
+
+Started GET "/coffee_shops" for ::1 at 2020-06-04 12:04:21 -0400
+Processing by CoffeeShopsController#index as */*
+  [1m[36mCoffeeShop Load (0.9ms)[0m  [1m[34mSELECT "coffee_shops".* FROM "coffee_shops"[0m
+  ↳ app/controllers/coffee_shops_controller.rb:4:in `index'
+Completed 200 OK in 20ms (Views: 0.4ms | ActiveRecord: 0.9ms | Allocations: 11133)
+
+
+Started POST "/login" for ::1 at 2020-06-04 12:04:30 -0400
+Processing by AuthController#create as JSON
+  Parameters: {"name"=>"John", "password"=>"[FILTERED]", "auth"=>{"name"=>"John", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "John"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.27ms)
+Completed 200 OK in 262ms (Views: 0.7ms | ActiveRecord: 0.4ms | Allocations: 957)
+
+
+Started GET "/coffee_shops" for ::1 at 2020-06-04 12:04:43 -0400
+Processing by CoffeeShopsController#index as */*
+  [1m[36mCoffeeShop Load (1.3ms)[0m  [1m[34mSELECT "coffee_shops".* FROM "coffee_shops"[0m
+  ↳ app/controllers/coffee_shops_controller.rb:4:in `index'
+Completed 200 OK in 20ms (Views: 0.3ms | ActiveRecord: 1.3ms | Allocations: 11135)
+
+
+Started GET "/coffee_shops" for ::1 at 2020-06-04 12:04:52 -0400
+Processing by CoffeeShopsController#index as HTML
+  [1m[36mCoffeeShop Load (3.2ms)[0m  [1m[34mSELECT "coffee_shops".* FROM "coffee_shops"[0m
+  ↳ app/controllers/coffee_shops_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 3.2ms | Allocations: 11131)
+
+
+Started GET "/coffee_shops" for ::1 at 2020-06-04 12:07:16 -0400
+Processing by CoffeeShopsController#index as */*
+  [1m[36mCoffeeShop Load (0.6ms)[0m  [1m[34mSELECT "coffee_shops".* FROM "coffee_shops"[0m
+  ↳ app/controllers/coffee_shops_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.6ms | Allocations: 11133)
+
+
+Started POST "/login" for ::1 at 2020-06-04 12:07:22 -0400
+Processing by AuthController#create as JSON
+  Parameters: {"name"=>"John", "password"=>"[FILTERED]", "auth"=>{"name"=>"John", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "John"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.27ms)
+Completed 200 OK in 264ms (Views: 0.8ms | ActiveRecord: 0.5ms | Allocations: 959)
+
+
+Started GET "/coffee_shops" for ::1 at 2020-06-04 12:09:25 -0400
+Processing by CoffeeShopsController#index as */*
+  [1m[36mCoffeeShop Load (1.1ms)[0m  [1m[34mSELECT "coffee_shops".* FROM "coffee_shops"[0m
+  ↳ app/controllers/coffee_shops_controller.rb:4:in `index'
+Completed 200 OK in 20ms (Views: 0.3ms | ActiveRecord: 1.1ms | Allocations: 11133)
+
+
+Started POST "/login" for ::1 at 2020-06-04 12:09:30 -0400
+Processing by AuthController#create as JSON
+  Parameters: {"name"=>"John", "password"=>"[FILTERED]", "auth"=>{"name"=>"John", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "John"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.28ms)
+Completed 200 OK in 261ms (Views: 0.9ms | ActiveRecord: 0.5ms | Allocations: 956)
+
+
+Started GET "/coffee_shops" for ::1 at 2020-06-04 12:11:13 -0400
+Processing by CoffeeShopsController#index as */*
+  [1m[36mCoffeeShop Load (4.6ms)[0m  [1m[34mSELECT "coffee_shops".* FROM "coffee_shops"[0m
+  ↳ app/controllers/coffee_shops_controller.rb:4:in `index'
+Completed 200 OK in 22ms (Views: 0.3ms | ActiveRecord: 4.6ms | Allocations: 11133)
+
+
+Started POST "/login" for ::1 at 2020-06-04 12:11:22 -0400
+Processing by AuthController#create as JSON
+  Parameters: {"name"=>"John", "password"=>"[FILTERED]", "auth"=>{"name"=>"John", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "John"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.27ms)
+Completed 200 OK in 264ms (Views: 0.8ms | ActiveRecord: 1.7ms | Allocations: 960)
+
+
+Started GET "/coffee_shops" for ::1 at 2020-06-04 12:12:48 -0400
+Processing by CoffeeShopsController#index as */*
+  [1m[36mCoffeeShop Load (1.5ms)[0m  [1m[34mSELECT "coffee_shops".* FROM "coffee_shops"[0m
+  ↳ app/controllers/coffee_shops_controller.rb:4:in `index'
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 1.5ms | Allocations: 11133)
+
+
+Started POST "/login" for ::1 at 2020-06-04 12:12:54 -0400
+Processing by AuthController#create as JSON
+  Parameters: {"name"=>"John", "password"=>"[FILTERED]", "auth"=>{"name"=>"John", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "John"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.27ms)
+Completed 200 OK in 261ms (Views: 0.7ms | ActiveRecord: 0.5ms | Allocations: 957)
+
+
